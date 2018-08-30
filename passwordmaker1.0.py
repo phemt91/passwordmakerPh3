@@ -54,7 +54,7 @@ def choicechar():
 
 
 def password_10():
-    print("\n\n## password ##\n\n")
+    print("\n\n## Password ##\n\n")
     global scelta
     print(scelta)
     password=("".join([random.choice(chara) for _ in range(int(scelta))]))
